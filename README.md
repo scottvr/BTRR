@@ -35,7 +35,7 @@ The trouble with DMCA notices has been well-documented, and no one is likely to 
 This repository presents two tools:
 
 - **BTForge** - A Tracker Spoofing Tool for sending falsified announce messages to BitTorrent trackers.
-- **DHTrack** - A DHT Monitoring Tool for observing and logging DHT traffic, focusing on specific info hashes and CIDR blocks.
+- **DHTrack** - A DHT Monitoring and Passive Tracker Server Tool for observing and logging DHT traffic, focusing on specific info hashes and CIDR blocks, as well as an (optional) passive torrent tracker server to capture additional information about peers and their transfers. 
 
 ## Installation
 
