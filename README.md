@@ -90,6 +90,7 @@ python dhtrack.py --hashes_file hashes.txt --cidr_file cidr_blocks.txt --db_file
 - `--hashes_file`: Path to the file containing info hashes to monitor.
 - `--cidr_file`: Path to the file containing CIDR blocks to monitor.
 - `--db_file`: Path to the SQLite database file.
+- `--tracker_port`: (optional) tcp port on which a passive tracker should listen.
 
 ## SQLlite Database 
 
