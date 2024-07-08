@@ -6,7 +6,7 @@ This repository contains tools designed to demonstrate and exploit vulnerabiliti
 
 **railroad:** (verb) - _to convict with undue haste and by means of false charges or insufficient evidence._
 
-By spoofing tracker announce messages and monitoring DHT traffic, we highlight the potential for false evidence of seeding or leeching of torrents to be placed by a malicious actor, and and picked up by (unwittingly or otherwise)  those in the business of monitoring peer-to-peer (P2P) networks, for such purposes as DMCA notices (or much more concerning, reporting on evidence of the trading in abuse-related materials.)
+By spoofing tracker announce messages and monitoring DHT traffic, we highlight the potential for false evidence of seeding or leeching of torrents to be placed by a malicious actor, and picked up by (unwittingly or otherwise)  those in the business of monitoring peer-to-peer (P2P) networks, for such purposes as DMCA notices (or much more concerning, reporting on evidence of the trading in abuse-related materials.)
 
 ## Contents
 
@@ -34,8 +34,8 @@ The trouble with DMCA notices has been well-documented, and no one is likely to 
 
 This repository presents two tools:
 
-- **BTForge** - A Tracker Spoofing Tool for sending falsified announce messages to BitTorrent trackers.
-- **DHTrack** - A DHT Monitoring and Passive Tracker Server Tool for observing and logging DHT traffic, focusing on specific info hashes and CIDR blocks, as well as an (optional) passive torrent tracker server to capture additional information about peers and their transfers. 
+- **BTForge** - A Tracker Spoofing Tool for sending falsified announce messages to BitTorrent trackers. This is a PoC demonstration for evidence forgery. 
+- **DHTrack** - A DHT Monitoring Tool for observing and logging DHT traffic, with the ability to focus only on specific info hashes and CIDR blocks. This was created as a way to validate the forgery PoC, but gathers information about real activity on the BitTorrent network as well, which is the point: there is no way to validate alleged information passed from peer to peer or client to tracker via these announcements. 
 
 ## Installation
 
@@ -90,7 +90,6 @@ python dhtrack.py --hashes_file hashes.txt --cidr_file cidr_blocks.txt --db_file
 - `--hashes_file`: Path to the file containing info hashes to monitor.
 - `--cidr_file`: Path to the file containing CIDR blocks to monitor.
 - `--db_file`: Path to the SQLite database file.
-- `--tracker_port`: (optional) tcp port on which a passive tracker should listen.
 
 ## SQLlite Database 
 
