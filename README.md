@@ -114,7 +114,7 @@ CREATE TABLE IF NOT EXISTS cidr_blocks (
     cidr TEXT UNIQUE NOT NULL
 );
 ```
-A utility script is included to help you create and populate the tables with IP addresses or info_hashes you wish to monitor. 
+A utility script is provided to help you create and populate the tables with IP addresses or info_hashes you wish to monitor. 
 
 
 ## Use Cases
