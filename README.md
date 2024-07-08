@@ -2,34 +2,35 @@
 
 ## Overview
 
-This repository contains tools designed to demonstrate and exploit vulnerabilities in BitTorrent tracker and Distributed Hash Table (DHT) systems. Why RR? Because "Track" and "Forge" bring to mind the Railways, and because 
+This repository contains tools designed to demonstrate and exploit vulnerabilities in BitTorrent tracker and Distributed Hash Table (DHT) systems. Why "BTRR"? Because "Track" and "Forge" bring to mind the Railways, and because 
 
 **railroad:** (verb) - _to convict with undue haste and by means of false charges or insufficient evidence._
 
 By spoofing tracker announce messages and monitoring DHT traffic, we highlight the potential for false evidence of seeding or leeching of torrents to be placed by a malicious actor, and and picked up by (unwittingly or otherwise)  those in the business of monitoring peer-to-peer (P2P) networks, for such purposes as DMCA notices (or much more concerning, watching for evidence of the trading of abuse-related materials.)
 
-## Table of Contents
+## Contents
 
-- Introduction
-- Installation
-- BTForge - Tracker Spoofing Tool
-  - Usage
-  - Command-Line Arguments
-- DHTrack - DHT Monitoring Tool
-  - Usage
-  - Command-Line Arguments
-- Database Management
-  - Storing Info Hashes
-  - Storing CIDR Blocks
-- Use Cases
-- Conclusion
-- References
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [BTForge - Tracker Spoofing Tool](#btforge---tracker-spoofing-tool)
+  - [Usage](#usage)
+  - [Command-Line Arguments](#command-line-arguments)
+- [DHTrack - DHT Monitoring Tool](#dhtrack---dht-monitoring-tool)
+  - [Usage](#usage-1)
+  - [Command-Line Arguments](#command-line-arguments-1)
+- [Database Management](#database-management)
+  - [Storing Info Hashes](#storing-info-hashes)
+  - [Storing CIDR Blocks](#storing-cidr-blocks)
+- [Use Cases](#use-cases)
+- [Conclusion](#conclusion)
+- [References](#references)
+
 
 ## Introduction
 
 BitTorrent and other P2P networks face challenges from anti-piracy efforts that rely on IP address monitoring. Additionally, sites such as iknowwhatyoudownload.com purport to show the torrents that have been downloaded from an IP address, and take it a step further by categorizing the downloads, allegedly making a claim as to whether a given IP address shares abuse-related content. 
 
-The trouble with DMCA notoces has been well-dpcumented, and no one is likely to argue that calling out abuse/illegal materials is a bad thing, however, it is important to point out that these systems can be exploited to fabricate "evidence", that an IP address is trafficking pirated software, leaked confidential material, or illegal and abusive media files.  while it is dubious that a criminal prosecution would commence on only this sort of evidence, an accusation of such deeds appearing on a public website without disclaimer or mention of these issues is troubling as is the apparent lack of conversation or awareness of how easy this forgery is to pull off. 
+The trouble with DMCA notices has been well-dpcumented, and no one is likely to argue that calling out abuse/illegal materials is a bad thing, however, it is important to point out that these systems can be exploited to fabricate "evidence", that an IP address is trafficking pirated software, leaked confidential material, or illegal and abusive media files.  while it is dubious that a criminal prosecution would commence on only this sort of evidence, an accusation of such deeds appearing on a public website without disclaimer or mention of these issues is troubling as is the apparent lack of conversation or awareness of how easy this forgery is to pull off. 
 
 This repository presents two tools:
 
