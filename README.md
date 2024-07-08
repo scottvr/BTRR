@@ -6,7 +6,7 @@ This repository contains tools designed to demonstrate and exploit vulnerabiliti
 
 **railroad:** (verb) - _to convict with undue haste and by means of false charges or insufficient evidence._
 
-By spoofing tracker announce messages and monitoring DHT traffic, we highlight the potential for false evidence of seeding or leeching of torrents to be placed by a malicious actor, and and picked up by (unwittingly or otherwise)  those in the business of monitoring peer-to-peer (P2P) networks, for such purposes as DMCA notices (or much more concerning, watching for evidence of the trading of abuse-related materials.)
+By spoofing tracker announce messages and monitoring DHT traffic, we highlight the potential for false evidence of seeding or leeching of torrents to be placed by a malicious actor, and and picked up by (unwittingly or otherwise)  those in the business of monitoring peer-to-peer (P2P) networks, for such purposes as DMCA notices (or much more concerning, reporting on evidence of the trading in abuse-related materials.)
 
 ## Contents
 
@@ -30,7 +30,7 @@ By spoofing tracker announce messages and monitoring DHT traffic, we highlight t
 
 BitTorrent and other P2P networks face challenges from anti-piracy efforts that rely on IP address monitoring. Additionally, sites such as iknowwhatyoudownload.com purport to show the torrents that have been downloaded from an IP address, and take it a step further by categorizing the downloads, allegedly making a claim as to whether a given IP address shares abuse-related content. 
 
-The trouble with DMCA notices has been well-dpcumented, and no one is likely to argue that calling out abuse/illegal materials is a bad thing, however, it is important to point out that these systems can be exploited to fabricate "evidence", that an IP address is trafficking pirated software, leaked confidential material, or illegal and abusive media files.  while it is dubious that a criminal prosecution would commence on only this sort of evidence, an accusation of such deeds appearing on a public website without disclaimer or mention of these issues is troubling as is the apparent lack of conversation or awareness of how easy this forgery is to pull off. 
+The trouble with DMCA notices has been well-documented, and no one is likely to argue that calling out abuse/illegal materials is a bad thing, however, it is important to point out that these systems can be exploited to fabricate "evidence", that an IP address is trafficking pirated software, leaked confidential material, or illegal and abusive media files.  While it is dubious that a criminal prosecution would commence on only this sort of evidence, an accusation of such deeds appearing on a public website without disclaimer or mention of these issues is troubling as is the apparent lack of conversation or awareness of how easy this forgery is to pull off. 
 
 This repository presents two tools:
 
