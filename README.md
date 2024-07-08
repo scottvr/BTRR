@@ -86,7 +86,7 @@ python dhtrack.py --hashes_file hashes.txt --cidr_file cidr_blocks.txt --db_file
 - `--cidr_file`: Path to the file containing CIDR blocks to monitor.
 - `--db_file`: Path to the SQLite database file.
 
-## Database Management
+## SQLlite Database 
 
 ### Storing Info Hashes
 
@@ -109,6 +109,8 @@ CREATE TABLE IF NOT EXISTS cidr_blocks (
     cidr TEXT UNIQUE NOT NULL
 );
 ```
+A utility script is included to help you create and populate the tables with IP addresses or info_hashes you wish to monitor. 
+
 
 ## Use Cases
 
