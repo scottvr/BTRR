@@ -6,7 +6,7 @@ This repository contains tools designed to demonstrate and exploit vulnerabiliti
 
 **railroad:** (verb) - _to convict with undue haste and by means of false charges or insufficient evidence._
 
-By spoofing tracker announce messages and monitoring DHT traffic, we highlight the potential for false evidence of seeding or leeching of torrents to be placed by a malicious actor, and and picked up by (unwittingly or otherwise)  those in the business of monitoring peer-to-peer (P2P) networks, for such purposes as DMCA notices (or much more concerning, reporting on evidence of the trading in abuse-related materials.)
+By spoofing tracker announce messages and monitoring DHT traffic, we highlight the potential for false evidence of seeding or leeching of torrents to be placed by a malicious actor, and picked up by (unwittingly or otherwise)  those in the business of monitoring peer-to-peer (P2P) networks, for such purposes as DMCA notices (or much more concerning, reporting on evidence of the trading in abuse-related materials.)
 
 ## Contents
 
