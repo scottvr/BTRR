@@ -49,9 +49,11 @@ pip install -r requirements.txt
 
 ## BTForge - Tracker Spoofing Tool
 
-### Usage
+v1.0
 
 BTForge sends falsified announce messages to a specified tracker URL to demonstrate the ease of planting false evidence.
+
+### Usage
 
 ```
 python btforge.py --info_hash abcdef1234567890 --port 6881 --ip 192.168.1.100 --num_requests 10
@@ -68,9 +70,11 @@ python btforge.py --info_hash abcdef1234567890 --port 6881 --ip 192.168.1.100 --
 
 ## DHTrack - DHT Monitoring Tool
 
-### Usage
+v1.0
 
 DHTrack listens for DHT traffic, checking for specific info hashes and CIDR blocks of interest. Results are logged and stored in an SQLite database.
+
+### Usage
 
 ```
 python dhtrack.py --hashes_file hashes.txt --cidr_file cidr_blocks.txt --db_file dhtrack.db
