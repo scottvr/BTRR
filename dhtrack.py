@@ -34,7 +34,7 @@ def is_ip_in_cidr_blocks(ip):
 
 def handle_alert(alert):
     if isinstance(alert, lt.dht_announce_alert):
-info_hash = str(alert.info_hash)
+        info_hash = str(alert.info_hash)
         ip = alert.ip
         if hash_exists(info_hash) or is_ip_in_cidr_blocks(ip):
             print(f"Matched Announce: {ip}:{alert.port} for info_hash: {alert.info_hash}")
