@@ -23,7 +23,7 @@ By spoofing tracker announce messages and monitoring DHT traffic, we highlight t
   - [Storing CIDR Blocks](#storing-cidr-blocks)
 - [Use Cases](#use-cases)
 - [Conclusion](#conclusion)
-- [References](#references)
+- [Resources](#resources)
 
 
 ## Introduction
@@ -129,7 +129,7 @@ A utility script is provided to help you create and populate the tables with IP 
 
 By demonstrating how easily false evidence appearing to show copyright infringement (or worse) can be generated, we aim to encourage improvements in anti-piracy mechanisms and raise awareness about the limitations of IP-based tracking.
 
-## References
+## Resources
 
 - [Merriam-Webster definition of "railroad"](https://www.merriam-webster.com/dictionary/railroad#:~:text=%3A%20to%20convict%20with%20undue%20haste,false%20charges%20or%20insufficient%20evidence)
 - ["Tracking the Trackers" - University of Washington BitTorrent/DMCA notice Study](http://dmca.cs.washington.edu/)
