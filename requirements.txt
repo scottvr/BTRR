@@ -1,6 +1,4 @@
-sqlite3
 ipaddress
 libtorrent
-threading
-http
 argparse
+urllib3
