@@ -32,6 +32,8 @@ BitTorrent and other P2P networks face challenges from anti-piracy efforts that 
 
 The trouble with DMCA notices has been well-documented, and no one is likely to argue that calling out abuse/illegal materials is a bad thing, however, it is important to point out that these systems can be exploited to fabricate "evidence" that an IP address is trafficking pirated software, leaked confidential material, or illegal and abusive media files.  While it is dubious that a criminal prosecution would commence on only this sort of evidence, an accusation of such deeds appearing on a public website without disclaimer or mention of these issues is troubling as is the apparent lack of conversation or awareness of how easy this forgery is to pull off. 
 
+Although one study addressed this from the DMCA angle (the UW paper listed in [Resources](Resources) - way back in 2008), and does show an example of how an IP address can be specified in a simple http request using wget, there seems to be an absence of code to easily parameterize requests or automate any sort of bulk testing, among other desireable features, discussion after this paper seems nonexistent in the public forum.  
+
 This repository presents two tools:
 
 - **BTForge** - A Tracker Spoofing Tool for sending falsified announce messages to BitTorrent trackers. This is a PoC demonstration for evidence forgery. 
