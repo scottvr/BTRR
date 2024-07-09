@@ -134,5 +134,5 @@ By demonstrating how easily false evidence appearing to show copyright infringem
 - [Merriam-Webster definition of "railroad"](https://www.merriam-webster.com/dictionary/railroad#:~:text=%3A%20to%20convict%20with%20undue%20haste,false%20charges%20or%20insufficient%20evidence)
 - ["Tracking the Trackers" - University of Washington BitTorrent/DMCA notice Study](http://dmca.cs.washington.edu/)
 - [ratio-spoof on GitHub](https://github.com/ap-pauloafonso/ratio-spoof)
-- [TorrentFreak Article on iknowwhatyoudownload.com](https://torrentfreak.com/i-know-what-you-download-overwhelmed-by-bogus-dmca-notices-221023/)
+- [TorrentFreak Article about iknowwhatyoudownload.com](https://torrentfreak.com/i-know-what-you-download-overwhelmed-by-bogus-dmca-notices-221023/)
 ```
