@@ -78,7 +78,7 @@ DHTrack listens for DHT traffic, checking for specific info hashes and CIDR bloc
 
 v1.1
 
-- add optional httpserver to serve as passive tracker. per bt tracker protocol, return an empty peer list. does not actually function as a tracker, facilitating torrent transfers; only serves to collect information such as up/download stats.
+- add optional httpserver to serve as passive tracker. Per BitTorrent  protocol, it just returns an empty peer list and does not actually function to facilitate torrent transfers; only serves to collect information such as up/download stats.
 - since we're now starting two betwork daemons (the DHT listener and an http tracker server), pitvthem each im their own thread
   
 ### Usage
