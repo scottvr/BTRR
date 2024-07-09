@@ -2,3 +2,4 @@ ipaddress
 libtorrent
 argparse
 urllib3
+requests
