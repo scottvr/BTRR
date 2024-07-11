@@ -49,6 +49,9 @@ cd BTRR
 pip install -r requirements.txt
 ```
 
+## libtorrent prerequisite
+The libtorrent python bindings do need to be able to find libtorrent in the library path or working directory. 
+
 ## BTForge - Tracker Spoofing Tool
 
 v1.0
